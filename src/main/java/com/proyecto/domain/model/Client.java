@@ -1,4 +1,4 @@
-package com.SaludVital_T2_ESPINOZA_ITALO.domain.model;
+package com.proyecto.domain.model;
 
 import jakarta.persistence.*;
 import lombok.*;

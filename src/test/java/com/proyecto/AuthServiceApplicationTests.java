@@ -1,4 +1,4 @@
-package com.SaludVital_T2_ESPINOZA_ITALO;
+package com.proyecto;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

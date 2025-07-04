@@ -1,4 +1,4 @@
-package com.SaludVital_T2_ESPINOZA_ITALO;
+package com.proyecto;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

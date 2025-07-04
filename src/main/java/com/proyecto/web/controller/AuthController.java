@@ -1,8 +1,8 @@
-package com.SaludVital_T2_ESPINOZA_ITALO.web.controller;
+package com.proyecto.web.controller;
 
-import com.SaludVital_T2_ESPINOZA_ITALO.application.service.AuthService;
-import com.SaludVital_T2_ESPINOZA_ITALO.application.dto.GenerateTokenRequest;
-import com.SaludVital_T2_ESPINOZA_ITALO.application.dto.GenerateTokenResponse;
+import com.proyecto.application.service.AuthService;
+import com.proyecto.application.dto.GenerateTokenRequest;
+import com.proyecto.application.dto.GenerateTokenResponse;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

@@ -1,10 +1,10 @@
-package com.SaludVital_T2_ESPINOZA_ITALO.application.service.impl;
+package com.proyecto.application.service.impl;
 
-import com.SaludVital_T2_ESPINOZA_ITALO.application.dto.GenerateTokenRequest;
-import com.SaludVital_T2_ESPINOZA_ITALO.application.dto.GenerateTokenResponse;
-import com.SaludVital_T2_ESPINOZA_ITALO.application.service.AuthService;
-import com.SaludVital_T2_ESPINOZA_ITALO.domain.repository.ClientRepository;
-import com.SaludVital_T2_ESPINOZA_ITALO.infraestructure.token.JwtService;
+import com.proyecto.application.dto.GenerateTokenRequest;
+import com.proyecto.application.dto.GenerateTokenResponse;
+import com.proyecto.application.service.AuthService;
+import com.proyecto.domain.repository.ClientRepository;
+import com.proyecto.infraestructure.token.JwtService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

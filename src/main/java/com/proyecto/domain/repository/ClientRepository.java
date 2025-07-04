@@ -1,6 +1,6 @@
-package com.SaludVital_T2_ESPINOZA_ITALO.domain.repository;
+package com.proyecto.domain.repository;
 
-import com.SaludVital_T2_ESPINOZA_ITALO.domain.model.Client;
+import com.proyecto.domain.model.Client;
 
 import java.util.Optional;
 

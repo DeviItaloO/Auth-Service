@@ -1,6 +1,6 @@
-package com.SaludVital_T2_ESPINOZA_ITALO.infraestructure.token;
+package com.proyecto.infraestructure.token;
 
-import com.SaludVital_T2_ESPINOZA_ITALO.domain.model.Client;
+import com.proyecto.domain.model.Client;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;

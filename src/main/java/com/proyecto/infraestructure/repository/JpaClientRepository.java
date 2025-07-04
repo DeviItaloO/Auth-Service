@@ -1,6 +1,6 @@
-package com.SaludVital_T2_ESPINOZA_ITALO.infraestructure.repository;
+package com.proyecto.infraestructure.repository;
 
-import com.SaludVital_T2_ESPINOZA_ITALO.domain.model.Client;
+import com.proyecto.domain.model.Client;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

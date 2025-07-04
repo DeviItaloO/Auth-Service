@@ -1,10 +1,11 @@
 server:
-  port: 8080
+  port: 8081
+
 spring:
   application:
     name: auth-service
   datasource:
-    url: jdbc:mysql://localhost:3306/db_espinoza
+    url: jdbc:mysql://localhost:3306/db_auth
     username: root
     password: root
   jpa:
@@ -17,5 +18,12 @@ spring:
 
 security:
   jwt:
-    secret: MiSuperClaveParaElExamenT2123456789!@$#
+    secret: 5D2F3G7H9J1K3M5P7R9T2V4X6Z8B0D2F
     expiration: 3600000
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+  instance:
+    prefer-ip-address: true
